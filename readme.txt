@@ -1,3 +1,4 @@
+=== Recommend a friend ===
 Contributors: Cocola, benjaminniess, momo360modena, Rahe
 Donate link: http://beapi.fr/donate
 Tags: share, facebook, openinviter, gmail, hotmail, email, recommend, widget
