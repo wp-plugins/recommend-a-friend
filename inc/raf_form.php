@@ -18,11 +18,11 @@ $open_inviter_feature = ( isset( $raf_options['openinviter'] ) && $raf_options['
 
 
 //Get the emailshipper from admin option
-$email_shipper = ( !empty( $raf_options['email_shipper'] ) ) ? $raf_options['email_shipper'] : '';
+$email_shipper = ( !empty( $raf_options['email_shipper'] ) ) ? $raf_options['email_shipper'] : 'contact@yoursite.com';
 
 $bg_color = ( !empty( $raf_options['bg_color'] ) ) ? $raf_options['bg_color'] : 'ECECE6';
-$bg_color_hover = ( !empty( $raf_options['button_bg_color_hover'] ) ) ? $raf_options['button_bg_color_hover'] : 'de3232';
-$button_color = ( !empty( $raf_options['button_bg_color'] ) ) ? $raf_options['button_bg_color'] : 'B41A1A';
+$bg_color_hover = ( !empty( $raf_options['button_bg_color_hover'] ) ) ? $raf_options['button_bg_color_hover'] : '85acca';
+$button_color = ( !empty( $raf_options['button_bg_color'] ) ) ? $raf_options['button_bg_color'] : '6194bb';
 $border_color = ( !empty( $raf_options['border_color'] ) ) ? $raf_options['border_color'] : 'ECECE6';
 $legend_color = ( !empty( $raf_options['titles_color'] ) ) ? $raf_options['titles_color'] : '363636';
 $button_text_color = ( !empty( $raf_options['button_text_color'] ) ) ? $raf_options['button_text_color'] : 'FFFFFF';
@@ -76,7 +76,7 @@ if ( isset( $_POST['raf_manual_invit'] ) && !empty( $_POST['raf_manual_invit'] )
 	
 	//check if user is logged in - Use name & first name or name field depending on the logged in statut
 	if ( is_user_logged_in() ) {
-		$name_from = $current_user->data->first_name . ' ' . $current_user->data->last_name;
+		$name_from = $current_user->user_login;
 	}
 	else {
 		if ( !empty( $secure_name_from ) ){
@@ -87,12 +87,11 @@ if ( isset( $_POST['raf_manual_invit'] ) && !empty( $_POST['raf_manual_invit'] )
 			$name_from = '';
 		}
 	}
-	
 	//If everything is correct send an mail for each email address
 	if ( isset( $error_message ) && count( $error_message ) == 0 ) {
-		$headers = 'From: "' . $name_from . '" <' . $email_shipper . '>\n';
-		$headers .= "MIME-version: 1.0\n";
-		$headers .= "Content-type: text/html; charset= iso-8859-1\n";
+		$headers = 'From: "' . $name_from . '" <' . $email_shipper . '>'. "\n";
+		$headers .= 'MIME-version: 1.0'. "\n";
+		$headers .= 'Content-type: text/html; charset= utf-8'. "\n";
 		
 		$body_message = $openinviter_settings['message_body'];
 		$body_message .= '<br /><br />';

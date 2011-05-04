@@ -17,7 +17,7 @@ class RAF_Widget extends WP_Widget {
 		$link_text = empty( $instance['link_text'] ) ? __( 'Share this page' , 'raf') : $instance['link_text'];
 		$image_url = empty( $instance['image_url'] ) ? '' : $instance['image_url'];
 		echo $before_widget;?>
-		<h3 class="share-to-a-friend">
+		<h3 class="widget-title">
 			<?php if ( $title ) echo $title; ?>
 		</h3>
 		<?php 
@@ -27,7 +27,7 @@ class RAF_Widget extends WP_Widget {
 		}
 		//text view
 		elseif ( $display_type == 3 ){
-			echo recommend_a_friend_link( '', '', $link_text );
+			echo "<p>" . recommend_a_friend_link( '', '', $link_text ) . "</p>";
 		}
 		//default view
 		else {
