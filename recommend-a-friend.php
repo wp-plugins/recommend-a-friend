@@ -2,7 +2,7 @@
 /*
 Plugin Name: Recommend a friend
 Description: Plugin that add a share to friends jQuery Lightbox 
-Version: 1.0.1
+Version: 1.0.2
 Author: benjaminniess
 Author URI: http://www.benjamin-niess.fr
 Text Domain: raf
