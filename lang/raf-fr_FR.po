@@ -2,270 +2,278 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Recommend a friend - 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-21 15:19+0100\n"
-"PO-Revision-Date: 2011-04-21 15:26+0100\n"
-"Last-Translator: Julien Guilmont <julien.guilmont@beapi.fr>\n"
+"POT-Creation-Date: 2011-05-07 22:12+0100\n"
+"PO-Revision-Date: 2011-05-08 00:04+0100\n"
+"Last-Translator: Benjamin Niess <benjamin.niess@gmail.com>\n"
 "Language-Team: BeAPI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: __;_e\n"
-"X-Poedit-Basepath: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend\n"
+"X-Poedit-Basepath: /Users/imac/Desktop/SVN/recommend-a-friend/trunk/\n"
 "X-Poedit-Language: French\n"
 "X-Poedit-Country: FRANCE\n"
-"X-Poedit-SearchPath-0: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend\n"
+"X-Poedit-SearchPath-0: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk\n"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.admin.php:26
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:26
 msgid "Options for Recommend a friend plugin"
 msgstr "Options du plugin Recommend a friend"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.admin.php:26
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.admin.php:53
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/functions.tpl.php:12
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/functions.tpl.php:20
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:26
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:58
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/functions.tpl.php:20
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/functions.tpl.php:28
 msgid "Recommend a friend"
 msgstr "Recommend a friend"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.admin.php:44
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:49
 msgid "Options updated!"
-msgstr "Options mises jour !"
+msgstr "Options mises à jour !"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.admin.php:58
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:63
 msgid "Open inviter login"
 msgstr "Login Open inviter"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.admin.php:62
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:63
+msgid "Get an Open Inviter Login"
+msgstr "Obtenir un login Open inviter"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:67
 msgid "Open inviter private key"
 msgstr "Clé privée Open inviter"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.admin.php:66
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:71
 msgid "Email shipper ( ex: contact@mysite.com)"
 msgstr "Expéditeur de l'email (ex: contact@monsite.com)"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.admin.php:70
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:75
 msgid "Enabled features"
 msgstr "Fonctionnalités activées"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.admin.php:72
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:77
 msgid "Insert emails mannualy"
 msgstr "Inserstion manuelle d'adresses emails"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.admin.php:73
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:78
 msgid "Share on social networks"
 msgstr "Partage sur les réseaux sociaux"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.admin.php:74
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:79
 msgid "Use email providers"
 msgstr "Utiliser les fournisseurs d'emails"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.admin.php:77
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:82
 msgid "Auto add RAF button after the_content"
 msgstr "Ajout automatique du bouton RAF après the_content"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.admin.php:78
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:83
 msgid "Check to auto add RAF after the_content"
 msgstr "Cocher pour ajouter automatiquement le bouton RAF après the_content"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.admin.php:81
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:86
 msgid "Background color"
 msgstr "Couleur de fond"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.admin.php:85
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:90
 msgid "Titles color"
 msgstr "Couleur des titres"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.admin.php:89
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:94
 msgid "Buttons background color"
 msgstr "Couleur de fond des boutons"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.admin.php:93
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:98
 msgid "Buttons background color hover"
 msgstr "Couleur de fond des bouttons (hover)"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.admin.php:97
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:102
 msgid "Buttons text color"
 msgstr "Couleur du texte des boutons"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.admin.php:104
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:109
 msgid "Save Changes"
 msgstr "Sauvegarder les modifications"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.raf-widget.php:9
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.raf-widget.php:9
 msgid "Add a recommend a friend widget"
 msgstr "Ajoute le widget Recommend a friend"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.raf-widget.php:17
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.raf-widget.php:17
 msgid "Share this page"
 msgstr "Partager cette page"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.raf-widget.php:60
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.raf-widget.php:59
 msgid "Title"
 msgstr "Titre"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.raf-widget.php:64
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.raf-widget.php:63
 msgid "Display type"
 msgstr "Type d'affichage"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.raf-widget.php:65
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.raf-widget.php:64
 msgid "Default"
 msgstr "Par défaut"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.raf-widget.php:66
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.raf-widget.php:65
 msgid "Custom image"
 msgstr "Image personnalisée"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.raf-widget.php:67
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.raf-widget.php:66
 msgid "Custom text"
 msgstr "Texte personnalisé"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.raf-widget.php:71
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.raf-widget.php:70
 msgid "Image URL"
 msgstr "URL de l'image"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/class.raf-widget.php:75
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.raf-widget.php:74
 msgid "Link text"
 msgstr "Libélé du lien"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:36
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:36
 msgid "You are invited on "
 msgstr "Vous êtes invité sur"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:37
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:37
 msgid " would like to invite you on "
 msgstr " souhaite vous inviter sur"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:70
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:70
 msgid "You need to enter valid email addresses"
 msgstr "Vous devez entrer des adresses email valides"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:86
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:86
 msgid "You need to specify your name"
 msgstr "Vous devez spécifier votre nom"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:99
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:290
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:98
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:289
 msgid "Attached message: "
 msgstr "Message attaché : "
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:116
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:316
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:322
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:115
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:315
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:321
 msgid "Your message has been sent"
-msgstr "Votre message a bien ét envoyé"
+msgstr "Votre message a bien été envoyé"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:130
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:129
 msgid ""
 "Hello,\n"
 "I'd like to recommend you the following page...\n"
-msgstr "Bonjour, Je souhaite vous recommander cette page..."
+msgstr ""
+"Bonjour, \n"
+"\n"
+"Je souhaite vous recommander cette page...\n"
+"\n"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:183
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:182
 msgid "Recommend this page to a friend !"
 msgstr "Recommander cette page à un ami !"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:188
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:187
 msgid "Customize your message"
 msgstr "Personnalisez votre message"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:194
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:193
 msgid "Please insert here the email addresses separate by commas"
 msgstr "Insérez ici des adresses email séparées par des virgules"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:200
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:199
 msgid "Your name"
 msgstr "Votre nom"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:205
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:204
 msgid "Send"
 msgstr "Envoyer"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:211
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:210
 msgid "You can recommend using: "
 msgstr "Récupérez vos contacts :"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:250
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:249
 msgid "You need to enter an email"
 msgstr "Vous devez spécifier un email"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:252
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:251
 msgid "You need to enter a password"
 msgstr "Vous devez spécifier un mot de passe"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:254
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:253
 msgid "You need to specify an email provider"
 msgstr "Vous devez spécifier un fournisseur de messagerie"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:262
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:261
 msgid "Unable to etablish a connection. Please check your login/password."
 msgstr "Impossible d'établir la connexion. Veuillez vérifier vos identifiants."
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:265
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:264
 msgid "Unable to load contacts"
 msgstr "Chargement des contacts impossible"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:275
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:274
 msgid "Please choose an email provider"
 msgstr "Veuillez choisir un fournisseur de messagerie"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:281
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:280
 msgid "Inviter information missing !"
 msgstr "Informations manquantes"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:282
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:281
 msgid "No active session !"
 msgstr "Aucune session active"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:283
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:282
 msgid "Message missing !"
 msgstr "Message manquant"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:301
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:300
 msgid "Please select one or more contacts"
 msgstr "Veuillez sélectionner un ou plusieurs contacts"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:320
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:319
 msgid "An error occured during the mailing. Please try later."
 msgstr "Une erreur s'est produite durant l'envoi. Merci d'essayer plus tard."
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:336
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:335
 msgid "Retrieve your contact from an email provider"
 msgstr "Retrouvez vos contacts à partir de votre messagerie"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:343
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:369
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:342
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:368
 msgid "Email"
 msgstr "Email"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:344
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:343
 msgid "Password"
 msgstr "Mot de passe"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:345
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:344
 msgid "Email provider"
 msgstr "Messagerie"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:353
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:352
 msgid "Import contacts"
 msgstr "Importer des contacts"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:358
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:357
 msgid "Message"
 msgstr "Message"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:359
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:379
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:358
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:378
 msgid "Send invites"
 msgstr "Envoyer les invitations"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:367
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:366
 msgid "No contacts found"
 msgstr "Aucun contact trouvé"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:369
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:368
 msgid "Invite ?"
 msgstr "Inviter ?"
 
-#: /Users/imac/Desktop/SVN/life-riviera/trunk/plugins/recommend-a-friend/inc/raf_form.php:369
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:368
 msgid "Name"
 msgstr "Nom"
 

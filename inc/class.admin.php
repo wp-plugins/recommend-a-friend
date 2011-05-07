@@ -60,7 +60,7 @@ class RAF_Admin {
 			<form method="post" action="">
 				<table class="form-table">
 					<tr valign="top">
-						<th scope="row"><?php _e('Open inviter login', 'raf'); ?></th>
+						<th scope="row"><?php _e('Open inviter login', 'raf'); ?><br /><a href="http://openinviter.com/" target="_blank"><?php _e('Get an Open Inviter Login', 'raf'); ?></a></th>
 						<td><input type="text" name="raf[oi_login]" value="<?php echo isset( $fields['oi_login'] ) ? $fields['oi_login'] : '' ; ?>" /></td>
 					</tr>
 					<tr valign="top">

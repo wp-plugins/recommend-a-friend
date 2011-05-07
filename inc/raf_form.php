@@ -1,4 +1,4 @@
- <?php
+<?php
 //load WordPress environment 
 require_once( dirname(__FILE__) . '../../../../../wp-load.php' );
 
@@ -52,6 +52,9 @@ require_once( RAF_DIR  .'/openinviter/openinviter.php');
 //get the current url (in $_GET)
 $current_url = ( isset( $_GET['current_url'] ) && !empty( $_GET['current_url'] ) ) ? $_GET['current_url'] : '';
 
+//check if the success message is set
+$success_message = ( isset( $_GET['success_message'] ) && !empty( $_GET['success_message'] ) ) ? true : false;
+
 if ( isset( $_POST['raf_manual_invit'] ) && !empty( $_POST['raf_manual_invit'] ) && $_POST['raf_manual_invit'] == '1' ) {
 	$email_addresses = str_replace( ";", ",", trim( $_POST['raf_email_addresses'] ) ) ;
 	
@@ -70,6 +73,7 @@ if ( isset( $_POST['raf_manual_invit'] ) && !empty( $_POST['raf_manual_invit'] )
 			$error_message['email'] = __( 'You need to enter valid email addresses', 'raf' );
 		}
 	}
+	
 	
 	//Set $email_default_value to display it into the form
 	$email_default_value = ( !isset( $error_message['mail'] ) || !empty( $error_message['mail'] ) ) ? $clean_email_addresses : '';
@@ -112,7 +116,7 @@ if ( isset( $_POST['raf_manual_invit'] ) && !empty( $_POST['raf_manual_invit'] )
 			raf_mail( $email, $openinviter_settings['message_subject'], $body_message, $headers, array( 'mail' => $email_shipper, 'name' => $name_from, 'id' => $current_user->data->ID ) );
 			
 		} 
-		echo oks( array( 0 => __( 'Your message has been sent', 'raf' ) ) );
+		wp_redirect( RAF_URL . '/inc/raf_form.php?success_message=true' );
 		exit;
 	}
 }
@@ -142,10 +146,17 @@ function ers( $ers ) {
 	
 function oks( $oks ) {
 	if ( !empty( $oks ) ) {
-		$contents = "<table border='0' cellspacing='0' cellpadding='10' style='border:1px solid #5897FE;' align='center'><tr><td valign='middle' valign='middle'><img src='" . RAF_URL . "openinviter/images/oks.gif' ></td><td valign='middle' style='color:#5897FE;padding:5px;'>	";
+		$contents = '<html>
+			<head>
+				<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+			</head>
+		<body>';
+		
+		$contents .= "<table border='0' cellspacing='0' cellpadding='10' style='border:1px solid #5897FE;' align='center'><tr><td valign='middle' valign='middle'><img src='" . RAF_URL . "openinviter/images/oks.gif' ></td><td valign='middle' style='color:#5897FE;padding:5px;'>	";
 		foreach ( $oks as $key=>$msg )
 			$contents .= "{$msg}<br >";
 		$contents .= "</td></tr></table><br >";
+		$contents .= '</body></html>'; 
 		return $contents;
 	}
 }
@@ -181,7 +192,10 @@ function oks( $oks ) {
 		<div id="raf_global">
 			<h1><?php _e( 'Recommend this page to a friend !' , 'raf'); ?></h1>
 			<?php if ( isset( $error_message ) && count( $error_message ) > 0 ) 
-				echo ers( $error_message ); ?>
+				echo ers( $error_message ); 
+				elseif ( $success_message ) 
+					echo oks( array( __( 'Your message has been sent', 'raf' ) ) ); ?>
+				
 			<form action="" method="post">
 				<fieldset>
 					<legend><?php _e( 'Customize your message' , 'raf'); ?></legend>

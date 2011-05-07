@@ -1,18 +1,7 @@
 /* iframe style */
-
-@font-face {
-    font-family: 'CopseRegular';
-    src: url('../fonts/copse_regular-webfont.eot');
-    src: url('../fonts/copse_regular-webfont.eot?iefix') format('eot'),
-         url('../fonts/copse_regular-webfont.woff') format('woff'),
-         url('../fonts/copse_regular-webfont.ttf') format('truetype'),
-         url('../fonts/copse_regular-webfont.svg#webfontDWLburz1') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
 }
 #raf_global {
-	font-family: 'Helvetica', Arial, sans-serif;
+	font-family: Verdana, helvetica, sans-serif;
 	width: 99%;
 }
 #raf_global h1 {
@@ -22,7 +11,7 @@
 	padding-bottom: 4px;
 	margin: 10px 0 10px;
 	color: #363636;
-	font-family: 'CopseRegular';
+	font-family: Verdana, helvetica, sans-serif;
 }
 #raf_global fieldset, .openinviter_form {
 	border: 0 none;
@@ -33,13 +22,14 @@
 #raf_global legend {
 	padding: 5px 0 0; 
 	color: #363636;
-	font-family: 'CopseRegular';
 	font-weight: 400;
+	font-family: Verdana, helvetica, sans-serif;
 }
 #raf_global label {
 	display: block;
 	color: #363636;
 	font-size: 12px;
+	font-family: Verdana, helvetica, sans-serif;
 }
 #raf_global textarea,
 #raf_global input.field,
@@ -48,10 +38,10 @@
 	border:2px solid #e8e8e8;
 	padding: 5px;
 	display: block;
-	font-family: 'Helvetica';
 	width: 99%;
 	line-height: 14px;
 	font-size: 12px;
+	font-family: Verdana, helvetica, sans-serif;
 }
 #raf_global textarea:focus,
 #raf_global input.field:focus,
@@ -100,17 +90,20 @@
 	padding: 45px 10px 0;
 	color: #414232;
 	text-decoration: none;
+	font-family: Verdana, helvetica, sans-serif;
 }
 #raf-twitter {
 	background: url(../images/share-twt-btn.png) no-repeat top center;
 	padding: 45px 10px 0;
 	color: #414232;
 	text-decoration: none;
+	font-family: Verdana, helvetica, sans-serif;
 }
 /* Import contact table */
 .thTable {
 	width: 500px;
 	margin: 0 auto 10px;
+	font-family: Verdana, helvetica, sans-serif;
 }
 .thTable th, .thTable td, .thTable caption {padding: 0 5px; text-align: right;}
 .thTable tbody tr:nth-child(2n) td, tbody tr.even td {background: none;}
@@ -127,7 +120,6 @@
 }
 .raf_widget h3.share-to-a-friend {
 	position: absolute;
-	font-family: 'Helvetica', Arial, sans-serif;
 	color: #fff;
 	top: 15px;
 	left: 60px;
