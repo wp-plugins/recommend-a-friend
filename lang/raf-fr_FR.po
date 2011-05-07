@@ -1,0 +1,284 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Recommend a friend - 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-05-07 22:12+0100\n"
+"PO-Revision-Date: 2011-05-08 00:04+0100\n"
+"Last-Translator: Benjamin Niess <benjamin.niess@gmail.com>\n"
+"Language-Team: BeAPI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: /Users/imac/Desktop/SVN/recommend-a-friend/trunk/\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SearchPath-0: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk\n"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:26
+msgid "Options for Recommend a friend plugin"
+msgstr "Options du plugin Recommend a friend"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:26
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:58
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/functions.tpl.php:20
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/functions.tpl.php:28
+msgid "Recommend a friend"
+msgstr "Recommend a friend"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:49
+msgid "Options updated!"
+msgstr "Options mises à jour !"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:63
+msgid "Open inviter login"
+msgstr "Login Open inviter"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:63
+msgid "Get an Open Inviter Login"
+msgstr "Obtenir un login Open inviter"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:67
+msgid "Open inviter private key"
+msgstr "Clé privée Open inviter"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:71
+msgid "Email shipper ( ex: contact@mysite.com)"
+msgstr "Expéditeur de l'email (ex: contact@monsite.com)"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:75
+msgid "Enabled features"
+msgstr "Fonctionnalités activées"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:77
+msgid "Insert emails mannualy"
+msgstr "Inserstion manuelle d'adresses emails"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:78
+msgid "Share on social networks"
+msgstr "Partage sur les réseaux sociaux"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:79
+msgid "Use email providers"
+msgstr "Utiliser les fournisseurs d'emails"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:82
+msgid "Auto add RAF button after the_content"
+msgstr "Ajout automatique du bouton RAF après the_content"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:83
+msgid "Check to auto add RAF after the_content"
+msgstr "Cocher pour ajouter automatiquement le bouton RAF après the_content"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:86
+msgid "Background color"
+msgstr "Couleur de fond"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:90
+msgid "Titles color"
+msgstr "Couleur des titres"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:94
+msgid "Buttons background color"
+msgstr "Couleur de fond des boutons"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:98
+msgid "Buttons background color hover"
+msgstr "Couleur de fond des bouttons (hover)"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:102
+msgid "Buttons text color"
+msgstr "Couleur du texte des boutons"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.admin.php:109
+msgid "Save Changes"
+msgstr "Sauvegarder les modifications"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.raf-widget.php:9
+msgid "Add a recommend a friend widget"
+msgstr "Ajoute le widget Recommend a friend"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.raf-widget.php:17
+msgid "Share this page"
+msgstr "Partager cette page"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.raf-widget.php:59
+msgid "Title"
+msgstr "Titre"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.raf-widget.php:63
+msgid "Display type"
+msgstr "Type d'affichage"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.raf-widget.php:64
+msgid "Default"
+msgstr "Par défaut"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.raf-widget.php:65
+msgid "Custom image"
+msgstr "Image personnalisée"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.raf-widget.php:66
+msgid "Custom text"
+msgstr "Texte personnalisé"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.raf-widget.php:70
+msgid "Image URL"
+msgstr "URL de l'image"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/class.raf-widget.php:74
+msgid "Link text"
+msgstr "Libélé du lien"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:36
+msgid "You are invited on "
+msgstr "Vous êtes invité sur"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:37
+msgid " would like to invite you on "
+msgstr " souhaite vous inviter sur"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:70
+msgid "You need to enter valid email addresses"
+msgstr "Vous devez entrer des adresses email valides"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:86
+msgid "You need to specify your name"
+msgstr "Vous devez spécifier votre nom"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:98
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:289
+msgid "Attached message: "
+msgstr "Message attaché : "
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:115
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:315
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:321
+msgid "Your message has been sent"
+msgstr "Votre message a bien été envoyé"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:129
+msgid ""
+"Hello,\n"
+"I'd like to recommend you the following page...\n"
+msgstr ""
+"Bonjour, \n"
+"\n"
+"Je souhaite vous recommander cette page...\n"
+"\n"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:182
+msgid "Recommend this page to a friend !"
+msgstr "Recommander cette page à un ami !"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:187
+msgid "Customize your message"
+msgstr "Personnalisez votre message"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:193
+msgid "Please insert here the email addresses separate by commas"
+msgstr "Insérez ici des adresses email séparées par des virgules"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:199
+msgid "Your name"
+msgstr "Votre nom"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:204
+msgid "Send"
+msgstr "Envoyer"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:210
+msgid "You can recommend using: "
+msgstr "Récupérez vos contacts :"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:249
+msgid "You need to enter an email"
+msgstr "Vous devez spécifier un email"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:251
+msgid "You need to enter a password"
+msgstr "Vous devez spécifier un mot de passe"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:253
+msgid "You need to specify an email provider"
+msgstr "Vous devez spécifier un fournisseur de messagerie"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:261
+msgid "Unable to etablish a connection. Please check your login/password."
+msgstr "Impossible d'établir la connexion. Veuillez vérifier vos identifiants."
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:264
+msgid "Unable to load contacts"
+msgstr "Chargement des contacts impossible"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:274
+msgid "Please choose an email provider"
+msgstr "Veuillez choisir un fournisseur de messagerie"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:280
+msgid "Inviter information missing !"
+msgstr "Informations manquantes"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:281
+msgid "No active session !"
+msgstr "Aucune session active"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:282
+msgid "Message missing !"
+msgstr "Message manquant"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:300
+msgid "Please select one or more contacts"
+msgstr "Veuillez sélectionner un ou plusieurs contacts"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:319
+msgid "An error occured during the mailing. Please try later."
+msgstr "Une erreur s'est produite durant l'envoi. Merci d'essayer plus tard."
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:335
+msgid "Retrieve your contact from an email provider"
+msgstr "Retrouvez vos contacts à partir de votre messagerie"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:342
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:368
+msgid "Email"
+msgstr "Email"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:343
+msgid "Password"
+msgstr "Mot de passe"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:344
+msgid "Email provider"
+msgstr "Messagerie"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:352
+msgid "Import contacts"
+msgstr "Importer des contacts"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:357
+msgid "Message"
+msgstr "Message"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:358
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:378
+msgid "Send invites"
+msgstr "Envoyer les invitations"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:366
+msgid "No contacts found"
+msgstr "Aucun contact trouvé"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:368
+msgid "Invite ?"
+msgstr "Inviter ?"
+
+#: /Users/benjaminniess/Desktop/SVN/recommend-a-friend/trunk/inc/raf_form.php:368
+msgid "Name"
+msgstr "Nom"
+
+#~ msgid "Recommend this page to a friend"
+#~ msgstr "Recommander cette page à un ami"
+
+#~ msgid " would like to invite you"
+#~ msgstr " souhaite vous inviter"

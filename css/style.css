@@ -1,0 +1,136 @@
+/* iframe style */
+}
+#raf_global {
+	font-family: Verdana, helvetica, sans-serif;
+	width: 99%;
+}
+#raf_global h1 {
+	font-weight: 400;
+	font-size: 22px;
+	border-bottom: 3px solid #363636;
+	padding-bottom: 4px;
+	margin: 10px 0 10px;
+	color: #363636;
+	font-family: Verdana, helvetica, sans-serif;
+}
+#raf_global fieldset, .openinviter_form {
+	border: 0 none;
+	border-bottom: 1px solid #ccc;
+	padding: 15px;
+	margin: 10px;
+}
+#raf_global legend {
+	padding: 5px 0 0; 
+	color: #363636;
+	font-weight: 400;
+	font-family: Verdana, helvetica, sans-serif;
+}
+#raf_global label {
+	display: block;
+	color: #363636;
+	font-size: 12px;
+	font-family: Verdana, helvetica, sans-serif;
+}
+#raf_global textarea,
+#raf_global input.field,
+#raf_global .thTextbox {
+	background: #f9f9f9;
+	border:2px solid #e8e8e8;
+	padding: 5px;
+	display: block;
+	width: 99%;
+	line-height: 14px;
+	font-size: 12px;
+	font-family: Verdana, helvetica, sans-serif;
+}
+#raf_global textarea:focus,
+#raf_global input.field:focus,
+#raf_global .thTextbox:focus {
+  border-color:#cdcccc;
+}
+.thTextbox {
+	margin-left: 10px;
+}
+#raf_global select.thSelect {
+	border: 1px solid #E8E8E8;
+    float: left;
+    margin: 5px 0 5px 11px;
+    width: 200px;
+}
+.submit-btn,
+.thButton {
+	background: url("../images/arrows-1.png") no-repeat scroll 8px -192px #B41A1A;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	line-height: 12px;
+	border: 0 none;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: 700;
+	float: left;
+	display: block;
+}
+.thButton {margin-left: 146px;}
+.submit-btn:hover,
+.thButton:hover {background-color: #de3232;}
+
+#raf_global ul {
+	list-style: none;
+	margin: 25px auto 0;
+	padding-left: 0;
+	text-align: center;
+}
+#raf_global ul li {
+	line-height: 50px;
+	display: inline;
+}
+#raf-facebook {
+	background: url(../images/share-fb-btn.png) no-repeat top center;
+	padding: 45px 10px 0;
+	color: #414232;
+	text-decoration: none;
+	font-family: Verdana, helvetica, sans-serif;
+}
+#raf-twitter {
+	background: url(../images/share-twt-btn.png) no-repeat top center;
+	padding: 45px 10px 0;
+	color: #414232;
+	text-decoration: none;
+	font-family: Verdana, helvetica, sans-serif;
+}
+/* Import contact table */
+.thTable {
+	width: 500px;
+	margin: 0 auto 10px;
+	font-family: Verdana, helvetica, sans-serif;
+}
+.thTable th, .thTable td, .thTable caption {padding: 0 5px; text-align: right;}
+.thTable tbody tr:nth-child(2n) td, tbody tr.even td {background: none;}
+.thTableHeader {
+	color: #6d7e8a;
+}
+.thTableDesc,
+.thTableEvenRow {
+	background: #fff;
+}
+/* Widget style */
+.raf_widget {
+	position: relative;
+}
+.raf_widget h3.share-to-a-friend {
+	position: absolute;
+	color: #fff;
+	top: 15px;
+	left: 60px;
+	font-size: 12px;
+	text-shadow: 1px 1px #608eb5;
+}
+
+
+#raf_link {
+	text-indent: -9999px;
+}
+#raf_link img {
+	display: block;
+}
