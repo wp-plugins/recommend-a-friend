@@ -20,11 +20,11 @@ $open_inviter_feature = ( isset( $raf_options['openinviter'] ) && $raf_options['
 //Get the emailshipper from admin option
 $email_shipper = ( !empty( $raf_options['email_shipper'] ) ) ? $raf_options['email_shipper'] : 'contact@yoursite.com';
 
-$bg_color = ( !empty( $raf_options['bg_color'] ) ) ? $raf_options['bg_color'] : 'ECECE6';
+$bg_color = ( !empty( $raf_options['bg_color'] ) ) ? $raf_options['bg_color'] : 'ffffff';
 $bg_color_hover = ( !empty( $raf_options['button_bg_color_hover'] ) ) ? $raf_options['button_bg_color_hover'] : '85acca';
 $button_color = ( !empty( $raf_options['button_bg_color'] ) ) ? $raf_options['button_bg_color'] : '6194bb';
 $border_color = ( !empty( $raf_options['border_color'] ) ) ? $raf_options['border_color'] : 'ECECE6';
-$legend_color = ( !empty( $raf_options['titles_color'] ) ) ? $raf_options['titles_color'] : '363636';
+$legend_color = ( !empty( $raf_options['titles_color'] ) ) ? $raf_options['titles_color'] : '6194BB';
 $button_text_color = ( !empty( $raf_options['button_text_color'] ) ) ? $raf_options['button_text_color'] : 'FFFFFF';
 
 
@@ -379,14 +379,14 @@ function oks( $oks ) {
 						if (count($contacts)==0)
 							$contents .= "<tr class='thTableOddRow'><td align='center' style='padding:20px;' colspan='".( $plugType == 'email' ? "3" : "2" )."'>" . __( 'No contacts found', 'raf' ) . "</td></tr>";
 						else {
-							$contents .= "<tr class='thTableDesc'><td><input type='checkbox' id='toggle_all' name='toggle_all' title='Select/Deselect all' checked>" . __( 'Invite ?', 'raf' ) . "</td><td>" . __( 'Name', 'raf' ) . "</td>" . ( $plugType == 'email' ? "<td>" . __( 'Email', 'raf' ) . "</td>" :"" ) . "</tr>";
+							$contents .= "<tr class='thTableDesc'><td class='thTableinput'><input type='checkbox' id='toggle_all' name='toggle_all' title='Select/Deselect all' checked>" . __( 'Invite ?', 'raf' ) . "</td><td class='thTablename'>" . __( 'Name', 'raf' ) . "</td>" . ( $plugType == 'email' ? "<td class='thTableemail'>" . __( 'Email', 'raf' ) . "</td>" :"" ) . "</tr>";
 							$odd = true;
 							$counter = 0;
 							foreach ( $contacts as $email=>$name ) {
 								$name = utf8_decode( $name );
 								$counter++;
 								if ( $odd ) $class = 'thTableOddRow'; else $class='thTableEvenRow';
-								$contents .= "<tr class='{$class}'><td><input name='check_{$counter}' value='{$counter}' type='checkbox' class='thCheckbox' checked><input type='hidden' name='email_{$counter}' value='{$email}'><input type='hidden' name='name_{$counter}' value='{$name}'></td><td>{$name}</td>".($plugType == 'email' ?"<td>{$email}</td>":"")."</tr>";
+								$contents .= "<tr class='{$class}'><td class='thTableinput'><input name='check_{$counter}' value='{$counter}' type='checkbox' class='thCheckbox' checked><input type='hidden' name='email_{$counter}' value='{$email}'><input type='hidden' name='name_{$counter}' value='{$name}'></td><td>{$name}</td>".($plugType == 'email' ?"<td>{$email}</td>":"")."</tr>";
 								$odd =! $odd;
 							}
 							$contents .= "<tr class='thTableFooter'><td colspan='" .( $plugType == 'email' ? "3" :"2" ) . "' style='padding:3px;'><input type='submit' name='send' value='" . __( 'Send invites', 'raf' ) . "' class='thButton'></td></tr>";

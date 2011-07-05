@@ -1,15 +1,48 @@
 /* iframe style */
+html{color:#000}
+body,
+div,
+dl,dt,dd,
+ul,ol,li,
+h1,h2,h3,h4,h5,h6,
+pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{
+margin:0;padding:0;
+}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}
+del,ins{text-decoration:none;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:baseline;}
+sub{vertical-align:baseline;}
+legend{color:#000;}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{*font-size:100%;}
+
+
+a,
+a:focus {outline: 0 none;color: #fff;}
+
+body {
+	margin: 0;
 }
 #raf_global {
 	font-family: Verdana, helvetica, sans-serif;
-	width: 99%;
+	width: 100%;
+	background: #fff;
+	float: left;
+	
 }
 #raf_global h1 {
 	font-weight: 400;
 	font-size: 22px;
-	border-bottom: 3px solid #363636;
+	border-bottom: 3px solid #eee;
 	padding-bottom: 4px;
-	margin: 10px 0 10px;
+	margin: 10px;
 	color: #363636;
 	font-family: Verdana, helvetica, sans-serif;
 }
@@ -42,6 +75,7 @@
 	line-height: 14px;
 	font-size: 12px;
 	font-family: Verdana, helvetica, sans-serif;
+	margin-bottom: 2px;
 }
 #raf_global textarea:focus,
 #raf_global input.field:focus,
@@ -70,6 +104,7 @@
 	font-weight: 700;
 	float: left;
 	display: block;
+	margin-top: 10px;
 }
 .thButton {margin-left: 146px;}
 .submit-btn:hover,
@@ -105,14 +140,34 @@
 	margin: 0 auto 10px;
 	font-family: Verdana, helvetica, sans-serif;
 }
-.thTable th, .thTable td, .thTable caption {padding: 0 5px; text-align: right;}
+.thTable th, .thTable td, .thTable caption {padding: 3px 5px; text-align: right; font-size: 11px; color: #333;}
 .thTable tbody tr:nth-child(2n) td, tbody tr.even td {background: none;}
 .thTableHeader {
 	color: #6d7e8a;
 }
+.thTableHeader td {
+	text-align: left;
+	font-size: 12px; font-weight: 700;
+}
 .thTableDesc,
 .thTableEvenRow {
 	background: #fff;
+}
+.thTableDesc {
+	background: #ddd;
+	color: #fff;
+	font-weight: 700;
+	border-bottom: 2px solid #608EB5;
+}
+.thTableOddRow {
+	background: #eee;
+}
+.thTable td.thTableinput {
+	width: 120px;
+	text-align: center;
+}
+.thTableinput #toggle_all {
+	float: right;
 }
 /* Widget style */
 .raf_widget {
