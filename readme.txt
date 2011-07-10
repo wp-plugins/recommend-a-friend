@@ -1,10 +1,10 @@
-=== Recommend a friend ===
+=== Recommend to a friend ===
 Contributors: Cocola, benjaminniess, momo360modena, Rahe
 Donate link: http://beapi.fr/donate
 Tags: share, facebook, openinviter, gmail, hotmail, email, recommend, widget
 Requires at least: 3.1
-Tested up to: 3.1.2
-Stable tag: 1.0.3
+Tested up to: 3.2
+Stable tag: 1.0.4
 
 == Description ==
 
@@ -49,3 +49,7 @@ Plugin that add a share to friends jQuery Lightbox to your pages or posts. Users
 * 1.0.3
 	* Remove font-face
 	* Use wp_redirect after sending mail
+
+* 1.0.4
+	* Cleanup CSS
+	* Add new widget image
