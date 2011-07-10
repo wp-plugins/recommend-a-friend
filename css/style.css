@@ -1,4 +1,6 @@
 /* iframe style */
+
+/*
 html{color:#000}
 body,
 div,
@@ -22,10 +24,12 @@ sub{vertical-align:baseline;}
 legend{color:#000;}
 input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
 input,button,textarea,select{*font-size:100%;}
+*/
 
-
-a,
-a:focus {outline: 0 none;color: #fff;}
+#raf_global a,
+#raf_global a:focus {
+	outline: 0 none;color: #fff;
+}
 
 body {
 	margin: 0;

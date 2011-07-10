@@ -4,7 +4,7 @@ Donate link: http://beapi.fr/donate
 Tags: share, facebook, openinviter, gmail, hotmail, email, recommend, widget
 Requires at least: 3.1
 Tested up to: 3.2
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 
 == Description ==
 
