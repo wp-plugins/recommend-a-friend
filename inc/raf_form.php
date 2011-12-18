@@ -64,7 +64,7 @@ if ( isset( $_POST['raf_manual_invit'] ) && !empty( $_POST['raf_manual_invit'] )
 	//Explode email field in an array
 	$email_addresses = explode( ",", $clean_email_addresses );
 	
-	$secure_content = stripslashes( $_POST['private_message'] );
+	$secure_content = stripslashes( esc_textarea( $_POST['private_message'] ) );
 	$secure_name_from = stripslashes( $_POST['raf_name_from'] );
 	
 	//Set the $error_message value if one of the emails is not correct
@@ -199,7 +199,7 @@ function oks( $oks ) {
 			<form action="" method="post">
 				<fieldset>
 					<legend><?php _e( 'Customize your message' , 'raf'); ?></legend>
-					<textarea name="private_message" cols="69" rows="6" id="private_message"><?php echo $textarea_value; ?></textarea>
+					<textarea name="private_message" cols="69" rows="6" id="private_message"><?php echo esc_textarea( $textarea_value ) ; ?></textarea>
 				</fieldset>
 				
 				<?php if ( $manual_feature == true ) : ?>
