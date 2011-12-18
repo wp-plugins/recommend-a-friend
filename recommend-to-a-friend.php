@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: Recommend a friend
+Plugin Name: Recommend to a friend
 Description: Plugin that add a share to friends jQuery Lightbox 
-Version: 1.0.5
+Version: 1.0.6
 Author: benjaminniess
 Author URI: http://www.benjamin-niess.fr
 Text Domain: raf

@@ -1,6 +1,6 @@
 <?php
 /**
- * Generate a Recommend a Friend link. Can be customized with an image url or a text
+ * Generate a Recommend to a Friend link. Can be customized with an image url or a text
  * 
  * @param string $permalink
  * @param string $image_url
@@ -17,15 +17,15 @@ function recommend_a_friend_link( $permalink ='', $image_url = '', $text_link = 
 		$link_content = $text_link;
 	}
 	elseif ( !empty( $image_url ) ) {
-		$link_content = '<img src="' . $image_url . '" alt=" ' . __('Recommend a friend', 'raf') . '" />';
+		$link_content = '<img src="' . $image_url . '" alt="' . __('Recommend to a friend', 'raf') . '" />';
 	}
 	else {
-		$link_content = '<img src="' . RAF_URL . 'images/addtoany-bg-btn.jpg" alt="Recommend a friend" />';
+		$link_content = '<img src="' . RAF_URL . 'images/addtoany-bg-btn.jpg" alt="Recommend to a friend" />';
 
 	}
 	ob_start();
 	 ?>
-	<div class="raf_share_buttons"><a href="<?php echo RAF_URL; ?>inc/raf_form.php?current_url=<?php echo $permalink; ?>" title="<?php _e('Recommend a friend', 'raf'); ?>" class="iframe raf_link"><?php echo $link_content; ?></a></div>
+	<div class="raf_share_buttons"><a href="<?php echo RAF_URL; ?>inc/raf_form.php?current_url=<?php echo $permalink; ?>" title="<?php _e('Recommend to a friend', 'raf'); ?>" class="iframe raf_link" rel="nofollow"><?php echo $link_content; ?></a></div>
 	
 	<?php 
 	$data = ob_get_contents();
