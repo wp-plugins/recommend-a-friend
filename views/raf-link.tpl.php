@@ -1,0 +1,1 @@
+<div class="raf_share_buttons"><a href="<?php echo RAF_URL; ?>inc/raf_form.php?current_url=<?php echo $permalink; ?>" title="<?php _e('Recommend to a friend', 'raf'); ?>" class="iframe raf_link" rel="nofollow"><?php echo $link_content; ?></a></div>

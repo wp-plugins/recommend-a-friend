@@ -10,10 +10,9 @@
  */
 function recommend_a_friend_link( $permalink ='', $image_url = '', $text_link = '' ){
 	if ( empty( $permalink ) ) {
-		$permalink = get_permalink();
-		$permalink = ( !empty( $permalink ) ? $permalink : home_url() );
+		$permalink = is_front_page() ? home_url() : get_permalink();
 	}
-	if ( !empty( $text_link ) ){
+	if ( !empty( $text_link ) ) {
 		$link_content = $text_link;
 	}
 	elseif ( !empty( $image_url ) ) {
@@ -21,16 +20,18 @@ function recommend_a_friend_link( $permalink ='', $image_url = '', $text_link = 
 	}
 	else {
 		$link_content = '<img src="' . RAF_URL . 'images/addtoany-bg-btn.jpg" alt="Recommend to a friend" />';
-
 	}
-	ob_start();
-	 ?>
-	<div class="raf_share_buttons"><a href="<?php echo RAF_URL; ?>inc/raf_form.php?current_url=<?php echo $permalink; ?>" title="<?php _e('Recommend to a friend', 'raf'); ?>" class="iframe raf_link" rel="nofollow"><?php echo $link_content; ?></a></div>
 	
-	<?php 
+	$tpl = RAF_Client::get_template( 'raf-link' );
+	if ( empty( $tpl ) ) {
+		return false;
+	}
+	
+	ob_start();
+	
+	include( $tpl );
+	
 	$data = ob_get_contents();
 	ob_end_clean();
 	return $data;
-	
 }
-?>

@@ -6,7 +6,9 @@ require_once( dirname(__FILE__) . '../../../../../wp-load.php' );
 //init $error_message
 $error_message = array();
 
-global $oi_login, $oi_private_key, $email_shipper, $manual_feature, $social_feature, $open_inviter_feature, $raf_options;
+global $oi_login, $oi_private_key, $email_shipper, $manual_feature, $social_feature, $open_inviter_feature;
+
+$raf_options = get_option ( 'raf_options' );
 
 $oi_login = ( !empty( $raf_options['oi_login'] ) ) ? $raf_options['oi_login'] : '';
 $oi_private_key = ( !empty( $raf_options['oi_private_key'] ) ) ? $raf_options['oi_private_key'] : '';
