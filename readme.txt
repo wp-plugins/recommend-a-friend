@@ -4,7 +4,7 @@ Donate link: http://beapi.fr/donate
 Tags: share, facebook, openinviter, gmail, hotmail, email, recommend, widget
 Requires at least: 3.1
 Tested up to: 3.7.1
-Stable tag: 2.0
+Stable tag: 2.0.1
 
 == Description ==
 
@@ -39,6 +39,8 @@ Plugin that add a share to friends jQuery Lightbox to your pages or posts. Users
 
 == Changelog ==
 
+* 2.0.1 
+	*Encode URL to the RAF link
 * 2.0
 	* Code refactoring
 	* Fix bug with homepage link
