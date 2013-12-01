@@ -166,6 +166,7 @@ function oks( $oks ) {
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+		<meta name="robots" content="nofollow" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 		<script src="<?php echo RAF_URL; ?>js/raf_form.js"></script>
 		<link rel='stylesheet' href='<?php echo RAF_URL; ?>css/style.css' type='text/css' media='all' />
