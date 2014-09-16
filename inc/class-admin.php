@@ -18,13 +18,8 @@ class RAF_Admin {
 	 */
 	public static function init_styles_scripts() {
 		wp_enqueue_script( 'jquery');
-		wp_enqueue_script( 'CP_colorpicker', RAF_URL . 'js/colorpicker/js/colorpicker.js', 'jquery' );
-		wp_enqueue_script( 'CP_eye', RAF_URL . 'js/colorpicker/js/eye.js', 'CP_colorpicker' );
-		wp_enqueue_script( 'CP_utils', RAF_URL . 'js/colorpicker/js/utils.js', 'CP_colorpicker' );
-		wp_enqueue_script( 'CP_layout', RAF_URL . 'js/colorpicker/js/layout.js', 'CP_colorpicker' );
-		wp_enqueue_script( 'raf_admin', RAF_URL . 'js/raf_admin.js', 'CP_colorpicker' );
-		
-		wp_enqueue_style( 'colorpicker', RAF_URL . 'js/colorpicker/css/colorpicker.css');		
+		wp_enqueue_script( 'raf_admin', RAF_URL . 'js/raf_admin.js', array( 'jquery', 'wp-color-picker' ) );
+		wp_enqueue_style( 'wp-color-picker' );
 	}
 	
 	public static function RAF_plugin_menu() {

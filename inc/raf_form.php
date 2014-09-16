@@ -169,24 +169,35 @@ function oks( $oks ) {
 		<meta name="robots" content="nofollow" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 		<script src="<?php echo RAF_URL; ?>js/raf_form.js"></script>
-		<link rel='stylesheet' href='<?php echo RAF_URL; ?>css/style.css' type='text/css' media='all' />
+		
+		<?php
+		$css_directory_url = RAF_URL . "css";
+		if ( file_exists( get_stylesheet_directory() . "/raf-styles.css" ) ) {
+			 $css_directory_url = get_stylesheet_directory_uri();
+		}
+		elseif ( file_exists( get_template_directory() . "/raf-styles.css" ) ) {
+			$css_directory_url = get_template_directory_uri();
+		}
+		?>
+		<link rel='stylesheet' href='<?php echo $css_directory_url; ?>/raf-styles.css' type='text/css' media='all' />
+		
 		<style type="text/css" media="all">
 
 			#raf_global {
-				border-color: #<?php echo $border_color; ?>;
-				background: #<?php echo $bg_color; ?>;
+				border-color: #<?php echo str_replace( '#', '', $border_color ); ?>;
+				background: #<?php echo str_replace( '#', '', $bg_color ); ?>;
 			}
 			#raf_global legend, #raf_global h1 {
-				color:#<?php echo $legend_color; ?>;
+				color:#<?php echo str_replace( '#', '', $legend_color ); ?>;
 			}
 			#raf_global submit-btn, #raf_global .thButton, .submit-btn, .thButton {
-				color: #<?php echo $button_text_color; ?>;
+				color: #<?php echo str_replace( '#', '', $button_text_color ); ?>;
 			}
 			#raf_global .submit-btn, #raf_global .thButton {
-				background-color: #<?php echo $button_color; ?>;
+				background-color: #<?php echo str_replace( '#', '', $button_color ); ?>;
 			}
 			#raf_global .submit-btn:hover, #raf_global .thButton:hover {
-				background-color: #<?php echo $bg_color_hover; ?>;
+				background-color: #<?php echo str_replace( '#', '', $bg_color_hover ); ?>;
 			}
 		</style>
 	</head>

@@ -3,8 +3,8 @@ Contributors: Cocola, benjaminniess, momo360modena, Rahe
 Donate link: http://beapi.fr/donate
 Tags: share, facebook, openinviter, gmail, hotmail, email, recommend, widget
 Requires at least: 3.1
-Tested up to: 3.7.1
-Stable tag: 2.0.2
+Tested up to: 4.0
+Stable tag: 2.0.3
 
 == Description ==
 
@@ -39,6 +39,11 @@ Plugin that add a share to friends jQuery Lightbox to your pages or posts. Users
 
 == Changelog ==
 
+* 2.0.3
+	* Add german translation thanks to Sebastian Maar
+	* Add portuguese (BR) translation thanks to Alexandre Ruoso
+	* Allow to load a custom CSS stylesheet in theme thanks to Emmanuel Hesry 
+	* Use the official wp color picker thanks to me :)
 * 2.0.2
 	* Add nofollow tag to the form
 * 2.0.1 

@@ -86,6 +86,9 @@ body {
 #raf_global .thTextbox:focus {
   border-color:#cdcccc;
 }
+#raf_global textarea{
+  resize: vertical;
+}
 .thTextbox {
 	margin-left: 10px;
 }

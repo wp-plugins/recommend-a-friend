@@ -9,7 +9,7 @@ jQuery(document).ready(function() {
  		 jQuery('#hidden_content_field, #message_box').val( jQuery('#private_message').val() ) ;
 	});
 	
-	jQuery( '#toggle_all' ) . click( toggleAll )
+	jQuery( '#toggle_all' ) . click( toggleAll );
 	function toggleAll() {
 		var checkboxes = jQuery( "#oi_form input[type=checkbox]");
 		var globalcheckbox = this.checked; 
