@@ -42,8 +42,6 @@ Plugin that add a share to friends jQuery Lightbox to your pages or posts. Users
 * 2.0.4
 	* Fix double MIME-type in email headers
 * 2.0.3
-	* Fix double MIME-type in email headers
-* 2.0.3
 	* Add german translation thanks to Sebastian Maar
 	* Add portuguese (BR) translation thanks to Alexandre Ruoso
 	* Allow to load a custom CSS stylesheet in theme thanks to Emmanuel Hesry 
