@@ -96,7 +96,6 @@ if ( isset( $_POST['raf_manual_invit'] ) && !empty( $_POST['raf_manual_invit'] )
 	//If everything is correct send an mail for each email address
 	if ( isset( $error_message ) && count( $error_message ) == 0 ) {
 		$headers = 'From: "' . $name_from . '" <' . $email_shipper . '>'. "\n";
-		$headers .= 'MIME-version: 1.0'. "\n";
 		$headers .= 'Content-type: text/html; charset= utf-8'. "\n";
 		
 		$body_message = $openinviter_settings['message_body'];
@@ -336,7 +335,6 @@ function oks( $oks ) {
 							$message_subject = $_POST['email_box'] . $message['subject'];
 							$message_body = $message['body'] . '<br /><br />' . nl2br( $message['attachment'] ); 
 							$headers = "From: {$_POST['email_box']}\n";
-							$headers .= "MIME-version: 1.0\n";
 							$headers .= "Content-type: text/html; charset= iso-8859-1\n";
 							foreach ( $selected_contacts as $email => $name )
 								mail( $email, $message_subject, stripslashes( $message_body ),$headers );
