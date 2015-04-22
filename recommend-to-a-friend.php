@@ -2,7 +2,7 @@
 /*
 Plugin Name: Recommend to a friend
 Description: Plugin that add a share to friends jQuery Lightbox 
-Version: 2.0.4
+Version: 2.1
 Author: benjaminniess
 Author URI: http://www.benjamin-niess.fr
 Text Domain: raf
@@ -43,8 +43,10 @@ register_activation_hook  ( __FILE__, 'RAF_Install' );
 // Init SimpleCustomFields
 function RAF_Init() {
 	// Load up the localization file if we're using WordPress in a different language
-	// Place it in this plugin's "lang" folder and name it "raf-[value in wp-config].mo"
-	load_plugin_textdomain( 'raf', false, basename( rtrim( dirname( __FILE__ ), '/' ) ) . '/lang' );
+	// Important: If you want to add you own translation file without having to hack this plugin, put you mo file in wp-content/languages/plugins/raf-xx_XX.mo
+	if ( !load_textdomain( 'raf', trailingslashit( WP_LANG_DIR ) . 'plugins/raf-' . get_locale() . '.mo' ) ) {
+		load_plugin_textdomain( 'raf', false, basename( rtrim( dirname( __FILE__ ), '/' ) ) . '/lang' );
+	}
 	
 	// Admin
 	if ( is_admin() ) {

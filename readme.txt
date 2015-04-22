@@ -3,8 +3,8 @@ Contributors: Cocola, benjaminniess, momo360modena, Rahe
 Donate link: http://beapi.fr/donate
 Tags: share, facebook, openinviter, gmail, hotmail, email, recommend, widget
 Requires at least: 3.1
-Tested up to: 4.1.1
-Stable tag: 2.0.4
+Tested up to: 4.2
+Stable tag: 2.1
 
 == Description ==
 
@@ -22,7 +22,7 @@ Plugin that add a share to friends jQuery Lightbox to your pages or posts. Users
 
 - Complete your Open Inviter login if you want to use the feature (http://openinviter.com/)
 - Choose the feature you want to enable
-- You can autoadd the button after your posts content by checking the box
+- You can auto add the button after your posts content by checking the box
  
 3. Add the Recommend a Friend widget or use the php function  
 `<?php echo recommend_a_friend_link( $permalink, $image_url, $text_link ); ?>`
@@ -32,6 +32,14 @@ Plugin that add a share to friends jQuery Lightbox to your pages or posts. Users
 - $text_link(facultative) the text you want to display instead the image (you need to choose between display an image or a text)
 
 
+== Frequently Asked Questions ==
+
+= How can I add a custom po/mo translation file =
+
+Create your po translation file from the default.po file and keep the prefix (eg. raf-us_US.po)
+Paste the po and mo files into your wp-content/languages/plugins/ folder
+
+
 == Screenshots ==
 
 1. Front office view
@@ -39,6 +47,8 @@ Plugin that add a share to friends jQuery Lightbox to your pages or posts. Users
 
 == Changelog ==
 
+* 2.1
+    * Added the ability to load a mo (translation) file from wp-content/languages/plugins/ folder
 * 2.0.4
 	* Fix double MIME-type in email headers
 * 2.0.3
